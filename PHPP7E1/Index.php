@@ -7,12 +7,12 @@
 </head>
     <body>
         <div>
-        <form action='user.php' method='get'>
+        <form action="user.php" method="GET">
                 <label for="lname">Nom :</label>
-                <input type="text" id="lname" name="Lastname" placeholder="Votre Nom...">
+                <input type="text" id="lname" name="lastname" placeholder="Votre Nom..." />
                 <label for="fname">Prénom :</label>
-                <input type="text" id="fname" name="Firstname" placeholder="Vore Prénom...">
-                <input type="submit" value="Submit">
+                <input type="text" id="fname" name="firstname" placeholder="Vore Prénom..." />
+                <input type="submit" value="Submit" />
         </form>
         </div>
     </body>
